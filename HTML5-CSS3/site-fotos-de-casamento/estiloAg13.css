@@ -1,0 +1,46 @@
+body{
+    background-color: #1e1d20;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.pre-casamento, .cerimonia, .festa, .lua-de-mel, .noiva{
+    flex-grow: 1;
+    align-items: center;
+    font-size: 1em;
+    text-align: center;
+    margin: 1%;
+}
+
+h1{
+    font-size: 3em;
+    text-align: center;
+    color: rgb(217, 163, 25);
+}
+
+h2{
+    text-align: center;
+    color: rgb(162, 122, 22);
+}
+
+h4{
+    text-align: center;
+    color: white;
+}
+
+img{
+    width: 100%;
+    margin: 1%;
+}
+
+a:link{
+    color: cyan;
+}
+
+a:visited{
+    color: gray;
+}
